@@ -7,10 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E145C522C6BDAC20088BBD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E145C262C6BDAC10088BBD3 /* Assets.xcassets */; };
+		1E145C532C6BDAC20088BBD3 /* ADrawSignatureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E145C272C6BDAC10088BBD3 /* ADrawSignatureView.swift */; };
+		1E145C542C6BDAC20088BBD3 /* AsyncRiderImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E145C282C6BDAC10088BBD3 /* AsyncRiderImageView.swift */; };
+		1E145C552C6BDAC20088BBD3 /* CaptureImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E145C292C6BDAC10088BBD3 /* CaptureImageView.swift */; };
+		1E145C562C6BDAC20088BBD3 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E145C2A2C6BDAC10088BBD3 /* LoadingView.swift */; };
+		1E145C572C6BDAC20088BBD3 /* SignatureBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E145C2B2C6BDAC10088BBD3 /* SignatureBox.swift */; };
+		1E145C582C6BDAC20088BBD3 /* Tips.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E145C2C2C6BDAC10088BBD3 /* Tips.swift */; };
+		1E145C5A2C6BDAC20088BBD3 /* LiveFeedScorecard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E145C2F2C6BDAC10088BBD3 /* LiveFeedScorecard.swift */; };
+		1E145C5B2C6BDAC20088BBD3 /* LiveFeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E145C312C6BDAC10088BBD3 /* LiveFeedView.swift */; };
+		1E145C5C2C6BDAC20088BBD3 /* LiveFeedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E145C322C6BDAC10088BBD3 /* LiveFeedViewModel.swift */; };
+		1E145C5D2C6BDAC20088BBD3 /* TrickDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E145C342C6BDAC10088BBD3 /* TrickDetailView.swift */; };
+		1E145C5E2C6BDAC20088BBD3 /* TrickListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E145C352C6BDAC10088BBD3 /* TrickListView.swift */; };
+		1E145C5F2C6BDAC20088BBD3 /* RiderProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E145C372C6BDAC10088BBD3 /* RiderProfileView.swift */; };
+		1E145C602C6BDAC20088BBD3 /* RiderProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E145C382C6BDAC10088BBD3 /* RiderProfileViewModel.swift */; };
+		1E145C612C6BDAC20088BBD3 /* RiderFilterSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E145C3A2C6BDAC10088BBD3 /* RiderFilterSheet.swift */; };
+		1E145C622C6BDAC20088BBD3 /* RiderRankings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E145C3C2C6BDAC10088BBD3 /* RiderRankings.swift */; };
+		1E145C632C6BDAC20088BBD3 /* RiderRankingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E145C3D2C6BDAC10088BBD3 /* RiderRankingsViewModel.swift */; };
+		1E145C642C6BDAC20088BBD3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E145C402C6BDAC10088BBD3 /* LaunchScreen.storyboard */; };
+		1E145C652C6BDAC20088BBD3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E145C412C6BDAC10088BBD3 /* Preview Assets.xcassets */; };
+		1E145C662C6BDAC20088BBD3 /* utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E145C432C6BDAC10088BBD3 /* utils.swift */; };
+		1E145C672C6BDAC20088BBD3 /* ContestCarrier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E145C442C6BDAC20088BBD3 /* ContestCarrier.swift */; };
+		1E145C682C6BDAC20088BBD3 /* Park.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E145C452C6BDAC20088BBD3 /* Park.swift */; };
+		1E145C692C6BDAC20088BBD3 /* Registration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E145C462C6BDAC20088BBD3 /* Registration.swift */; };
+		1E145C6A2C6BDAC20088BBD3 /* Rider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E145C472C6BDAC20088BBD3 /* Rider.swift */; };
+		1E145C6B2C6BDAC20088BBD3 /* RiderProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E145C482C6BDAC20088BBD3 /* RiderProfile.swift */; };
+		1E145C6C2C6BDAC20088BBD3 /* RiderStat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E145C492C6BDAC20088BBD3 /* RiderStat.swift */; };
+		1E145C6D2C6BDAC20088BBD3 /* Scorecard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E145C4A2C6BDAC20088BBD3 /* Scorecard.swift */; };
+		1E145C6E2C6BDAC20088BBD3 /* MessageHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E145C4C2C6BDAC20088BBD3 /* MessageHandler.swift */; };
+		1E145C6F2C6BDAC20088BBD3 /* MockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E145C4D2C6BDAC20088BBD3 /* MockData.swift */; };
+		1E145C702C6BDAC20088BBD3 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E145C4E2C6BDAC20088BBD3 /* NetworkManager.swift */; };
+		1E145C712C6BDAC20088BBD3 /* RequestError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E145C4F2C6BDAC20088BBD3 /* RequestError.swift */; };
+		1E145C722C6BDAC20088BBD3 /* WebsocketManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E145C502C6BDAC20088BBD3 /* WebsocketManager.swift */; };
 		1E4D69612BA9E772003707B9 /* CabledApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E4D69602BA9E772003707B9 /* CabledApp.swift */; };
 		1E4D69632BA9E772003707B9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E4D69622BA9E772003707B9 /* ContentView.swift */; };
-		1E4D69652BA9E773003707B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E4D69642BA9E773003707B9 /* Assets.xcassets */; };
-		1E4D69692BA9E773003707B9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E4D69682BA9E773003707B9 /* Preview Assets.xcassets */; };
 		1E4D69732BA9E773003707B9 /* CabledTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E4D69722BA9E773003707B9 /* CabledTests.swift */; };
 		1E4D697D2BA9E773003707B9 /* CabledUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E4D697C2BA9E773003707B9 /* CabledUITests.swift */; };
 		1E4D697F2BA9E773003707B9 /* CabledUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E4D697E2BA9E773003707B9 /* CabledUITestsLaunchTests.swift */; };
@@ -34,12 +64,53 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1E145BAD2C6BAD1C0088BBD3 /* LiveFeedScorecard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveFeedScorecard.swift; sourceTree = "<group>"; };
+		1E145BAF2C6BAD1C0088BBD3 /* LiveFeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveFeedView.swift; sourceTree = "<group>"; };
+		1E145BB02C6BAD1C0088BBD3 /* LiveFeedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveFeedViewModel.swift; sourceTree = "<group>"; };
+		1E145BB22C6BAD1C0088BBD3 /* TrickDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrickDetailView.swift; sourceTree = "<group>"; };
+		1E145BB32C6BAD1C0088BBD3 /* TrickListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrickListView.swift; sourceTree = "<group>"; };
+		1E145BB52C6BAD1C0088BBD3 /* RiderProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RiderProfileView.swift; sourceTree = "<group>"; };
+		1E145BB62C6BAD1C0088BBD3 /* RiderProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RiderProfileViewModel.swift; sourceTree = "<group>"; };
+		1E145BB82C6BAD1C0088BBD3 /* RiderFilterSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RiderFilterSheet.swift; sourceTree = "<group>"; };
+		1E145BBA2C6BAD1C0088BBD3 /* RiderRankings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RiderRankings.swift; sourceTree = "<group>"; };
+		1E145BBB2C6BAD1C0088BBD3 /* RiderRankingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RiderRankingsViewModel.swift; sourceTree = "<group>"; };
+		1E145C262C6BDAC10088BBD3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1E145C272C6BDAC10088BBD3 /* ADrawSignatureView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ADrawSignatureView.swift; sourceTree = "<group>"; };
+		1E145C282C6BDAC10088BBD3 /* AsyncRiderImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsyncRiderImageView.swift; sourceTree = "<group>"; };
+		1E145C292C6BDAC10088BBD3 /* CaptureImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CaptureImageView.swift; sourceTree = "<group>"; };
+		1E145C2A2C6BDAC10088BBD3 /* LoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		1E145C2B2C6BDAC10088BBD3 /* SignatureBox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignatureBox.swift; sourceTree = "<group>"; };
+		1E145C2C2C6BDAC10088BBD3 /* Tips.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tips.swift; sourceTree = "<group>"; };
+		1E145C2E2C6BDAC10088BBD3 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E145C2F2C6BDAC10088BBD3 /* LiveFeedScorecard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiveFeedScorecard.swift; sourceTree = "<group>"; };
+		1E145C312C6BDAC10088BBD3 /* LiveFeedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiveFeedView.swift; sourceTree = "<group>"; };
+		1E145C322C6BDAC10088BBD3 /* LiveFeedViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiveFeedViewModel.swift; sourceTree = "<group>"; };
+		1E145C342C6BDAC10088BBD3 /* TrickDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrickDetailView.swift; sourceTree = "<group>"; };
+		1E145C352C6BDAC10088BBD3 /* TrickListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrickListView.swift; sourceTree = "<group>"; };
+		1E145C372C6BDAC10088BBD3 /* RiderProfileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RiderProfileView.swift; sourceTree = "<group>"; };
+		1E145C382C6BDAC10088BBD3 /* RiderProfileViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RiderProfileViewModel.swift; sourceTree = "<group>"; };
+		1E145C3A2C6BDAC10088BBD3 /* RiderFilterSheet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RiderFilterSheet.swift; sourceTree = "<group>"; };
+		1E145C3C2C6BDAC10088BBD3 /* RiderRankings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RiderRankings.swift; sourceTree = "<group>"; };
+		1E145C3D2C6BDAC10088BBD3 /* RiderRankingsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RiderRankingsViewModel.swift; sourceTree = "<group>"; };
+		1E145C402C6BDAC10088BBD3 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1E145C412C6BDAC10088BBD3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1E145C432C6BDAC10088BBD3 /* utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = utils.swift; sourceTree = "<group>"; };
+		1E145C442C6BDAC20088BBD3 /* ContestCarrier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContestCarrier.swift; sourceTree = "<group>"; };
+		1E145C452C6BDAC20088BBD3 /* Park.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Park.swift; sourceTree = "<group>"; };
+		1E145C462C6BDAC20088BBD3 /* Registration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Registration.swift; sourceTree = "<group>"; };
+		1E145C472C6BDAC20088BBD3 /* Rider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rider.swift; sourceTree = "<group>"; };
+		1E145C482C6BDAC20088BBD3 /* RiderProfile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RiderProfile.swift; sourceTree = "<group>"; };
+		1E145C492C6BDAC20088BBD3 /* RiderStat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RiderStat.swift; sourceTree = "<group>"; };
+		1E145C4A2C6BDAC20088BBD3 /* Scorecard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Scorecard.swift; sourceTree = "<group>"; };
+		1E145C4C2C6BDAC20088BBD3 /* MessageHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageHandler.swift; sourceTree = "<group>"; };
+		1E145C4D2C6BDAC20088BBD3 /* MockData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockData.swift; sourceTree = "<group>"; };
+		1E145C4E2C6BDAC20088BBD3 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		1E145C4F2C6BDAC20088BBD3 /* RequestError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestError.swift; sourceTree = "<group>"; };
+		1E145C502C6BDAC20088BBD3 /* WebsocketManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebsocketManager.swift; sourceTree = "<group>"; };
 		1E4D695D2BA9E772003707B9 /* Cabled.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cabled.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E4D69602BA9E772003707B9 /* CabledApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CabledApp.swift; sourceTree = "<group>"; };
 		1E4D69622BA9E772003707B9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		1E4D69642BA9E773003707B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1E4D69662BA9E773003707B9 /* Cabled.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Cabled.entitlements; sourceTree = "<group>"; };
-		1E4D69682BA9E773003707B9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1E4D696E2BA9E773003707B9 /* CabledTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CabledTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E4D69722BA9E773003707B9 /* CabledTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CabledTests.swift; sourceTree = "<group>"; };
 		1E4D69782BA9E773003707B9 /* CabledUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CabledUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -72,6 +143,183 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1E145BAE2C6BAD1C0088BBD3 /* components */ = {
+			isa = PBXGroup;
+			children = (
+				1E145BAD2C6BAD1C0088BBD3 /* LiveFeedScorecard.swift */,
+			);
+			path = components;
+			sourceTree = "<group>";
+		};
+		1E145BB12C6BAD1C0088BBD3 /* LiveFeed */ = {
+			isa = PBXGroup;
+			children = (
+				1E145BAE2C6BAD1C0088BBD3 /* components */,
+				1E145BAF2C6BAD1C0088BBD3 /* LiveFeedView.swift */,
+				1E145BB02C6BAD1C0088BBD3 /* LiveFeedViewModel.swift */,
+			);
+			path = LiveFeed;
+			sourceTree = "<group>";
+		};
+		1E145BB42C6BAD1C0088BBD3 /* components */ = {
+			isa = PBXGroup;
+			children = (
+				1E145BB22C6BAD1C0088BBD3 /* TrickDetailView.swift */,
+				1E145BB32C6BAD1C0088BBD3 /* TrickListView.swift */,
+			);
+			path = components;
+			sourceTree = "<group>";
+		};
+		1E145BB72C6BAD1C0088BBD3 /* RiderProfile */ = {
+			isa = PBXGroup;
+			children = (
+				1E145BB42C6BAD1C0088BBD3 /* components */,
+				1E145BB52C6BAD1C0088BBD3 /* RiderProfileView.swift */,
+				1E145BB62C6BAD1C0088BBD3 /* RiderProfileViewModel.swift */,
+			);
+			path = RiderProfile;
+			sourceTree = "<group>";
+		};
+		1E145BB92C6BAD1C0088BBD3 /* components */ = {
+			isa = PBXGroup;
+			children = (
+				1E145BB82C6BAD1C0088BBD3 /* RiderFilterSheet.swift */,
+			);
+			path = components;
+			sourceTree = "<group>";
+		};
+		1E145BBC2C6BAD1C0088BBD3 /* RidersRankings */ = {
+			isa = PBXGroup;
+			children = (
+				1E145BB92C6BAD1C0088BBD3 /* components */,
+				1E145BBA2C6BAD1C0088BBD3 /* RiderRankings.swift */,
+				1E145BBB2C6BAD1C0088BBD3 /* RiderRankingsViewModel.swift */,
+			);
+			path = RidersRankings;
+			sourceTree = "<group>";
+		};
+		1E145BBD2C6BAD1C0088BBD3 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				1E145BB12C6BAD1C0088BBD3 /* LiveFeed */,
+				1E145BB72C6BAD1C0088BBD3 /* RiderProfile */,
+				1E145BBC2C6BAD1C0088BBD3 /* RidersRankings */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		1E145C2D2C6BDAC10088BBD3 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				1E145C272C6BDAC10088BBD3 /* ADrawSignatureView.swift */,
+				1E145C282C6BDAC10088BBD3 /* AsyncRiderImageView.swift */,
+				1E145C292C6BDAC10088BBD3 /* CaptureImageView.swift */,
+				1E145C2A2C6BDAC10088BBD3 /* LoadingView.swift */,
+				1E145C2B2C6BDAC10088BBD3 /* SignatureBox.swift */,
+				1E145C2C2C6BDAC10088BBD3 /* Tips.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		1E145C302C6BDAC10088BBD3 /* components */ = {
+			isa = PBXGroup;
+			children = (
+				1E145C2F2C6BDAC10088BBD3 /* LiveFeedScorecard.swift */,
+			);
+			path = components;
+			sourceTree = "<group>";
+		};
+		1E145C332C6BDAC10088BBD3 /* LiveFeed */ = {
+			isa = PBXGroup;
+			children = (
+				1E145C302C6BDAC10088BBD3 /* components */,
+				1E145C312C6BDAC10088BBD3 /* LiveFeedView.swift */,
+				1E145C322C6BDAC10088BBD3 /* LiveFeedViewModel.swift */,
+			);
+			path = LiveFeed;
+			sourceTree = "<group>";
+		};
+		1E145C362C6BDAC10088BBD3 /* components */ = {
+			isa = PBXGroup;
+			children = (
+				1E145C342C6BDAC10088BBD3 /* TrickDetailView.swift */,
+				1E145C352C6BDAC10088BBD3 /* TrickListView.swift */,
+			);
+			path = components;
+			sourceTree = "<group>";
+		};
+		1E145C392C6BDAC10088BBD3 /* RiderProfile */ = {
+			isa = PBXGroup;
+			children = (
+				1E145C362C6BDAC10088BBD3 /* components */,
+				1E145C372C6BDAC10088BBD3 /* RiderProfileView.swift */,
+				1E145C382C6BDAC10088BBD3 /* RiderProfileViewModel.swift */,
+			);
+			path = RiderProfile;
+			sourceTree = "<group>";
+		};
+		1E145C3B2C6BDAC10088BBD3 /* components */ = {
+			isa = PBXGroup;
+			children = (
+				1E145C3A2C6BDAC10088BBD3 /* RiderFilterSheet.swift */,
+			);
+			path = components;
+			sourceTree = "<group>";
+		};
+		1E145C3E2C6BDAC10088BBD3 /* RidersRankings */ = {
+			isa = PBXGroup;
+			children = (
+				1E145C3B2C6BDAC10088BBD3 /* components */,
+				1E145C3C2C6BDAC10088BBD3 /* RiderRankings.swift */,
+				1E145C3D2C6BDAC10088BBD3 /* RiderRankingsViewModel.swift */,
+			);
+			path = RidersRankings;
+			sourceTree = "<group>";
+		};
+		1E145C3F2C6BDAC10088BBD3 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				1E145C332C6BDAC10088BBD3 /* LiveFeed */,
+				1E145C392C6BDAC10088BBD3 /* RiderProfile */,
+				1E145C3E2C6BDAC10088BBD3 /* RidersRankings */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		1E145C422C6BDAC10088BBD3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1E145C412C6BDAC10088BBD3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1E145C4B2C6BDAC20088BBD3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1E145C442C6BDAC20088BBD3 /* ContestCarrier.swift */,
+				1E145C452C6BDAC20088BBD3 /* Park.swift */,
+				1E145C462C6BDAC20088BBD3 /* Registration.swift */,
+				1E145C472C6BDAC20088BBD3 /* Rider.swift */,
+				1E145C482C6BDAC20088BBD3 /* RiderProfile.swift */,
+				1E145C492C6BDAC20088BBD3 /* RiderStat.swift */,
+				1E145C4A2C6BDAC20088BBD3 /* Scorecard.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1E145C512C6BDAC20088BBD3 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				1E145C4C2C6BDAC20088BBD3 /* MessageHandler.swift */,
+				1E145C4D2C6BDAC20088BBD3 /* MockData.swift */,
+				1E145C4E2C6BDAC20088BBD3 /* NetworkManager.swift */,
+				1E145C4F2C6BDAC20088BBD3 /* RequestError.swift */,
+				1E145C502C6BDAC20088BBD3 /* WebsocketManager.swift */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
 		1E4D69542BA9E772003707B9 = {
 			isa = PBXGroup;
 			children = (
@@ -95,21 +343,21 @@
 		1E4D695F2BA9E772003707B9 /* Cabled */ = {
 			isa = PBXGroup;
 			children = (
+				1E145C402C6BDAC10088BBD3 /* LaunchScreen.storyboard */,
+				1E145C4B2C6BDAC20088BBD3 /* Model */,
+				1E145C422C6BDAC10088BBD3 /* Preview Content */,
+				1E145BBD2C6BAD1C0088BBD3 /* Screens */,
+				1E145C262C6BDAC10088BBD3 /* Assets.xcassets */,
+				1E145C2D2C6BDAC10088BBD3 /* Components */,
+				1E145C512C6BDAC20088BBD3 /* Database */,
+				1E145C2E2C6BDAC10088BBD3 /* Info.plist */,
+				1E145C3F2C6BDAC10088BBD3 /* Screens */,
+				1E145C432C6BDAC10088BBD3 /* utils.swift */,
 				1E4D69602BA9E772003707B9 /* CabledApp.swift */,
 				1E4D69622BA9E772003707B9 /* ContentView.swift */,
-				1E4D69642BA9E773003707B9 /* Assets.xcassets */,
 				1E4D69662BA9E773003707B9 /* Cabled.entitlements */,
-				1E4D69672BA9E773003707B9 /* Preview Content */,
 			);
 			path = Cabled;
-			sourceTree = "<group>";
-		};
-		1E4D69672BA9E773003707B9 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				1E4D69682BA9E773003707B9 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		1E4D69712BA9E773003707B9 /* CabledTests */ = {
@@ -233,8 +481,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1E4D69692BA9E773003707B9 /* Preview Assets.xcassets in Resources */,
-				1E4D69652BA9E773003707B9 /* Assets.xcassets in Resources */,
+				1E145C652C6BDAC20088BBD3 /* Preview Assets.xcassets in Resources */,
+				1E145C642C6BDAC20088BBD3 /* LaunchScreen.storyboard in Resources */,
+				1E145C522C6BDAC20088BBD3 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +508,37 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E145C5B2C6BDAC20088BBD3 /* LiveFeedView.swift in Sources */,
+				1E145C6E2C6BDAC20088BBD3 /* MessageHandler.swift in Sources */,
+				1E145C682C6BDAC20088BBD3 /* Park.swift in Sources */,
 				1E4D69632BA9E772003707B9 /* ContentView.swift in Sources */,
+				1E145C532C6BDAC20088BBD3 /* ADrawSignatureView.swift in Sources */,
+				1E145C6F2C6BDAC20088BBD3 /* MockData.swift in Sources */,
+				1E145C6D2C6BDAC20088BBD3 /* Scorecard.swift in Sources */,
+				1E145C6B2C6BDAC20088BBD3 /* RiderProfile.swift in Sources */,
+				1E145C542C6BDAC20088BBD3 /* AsyncRiderImageView.swift in Sources */,
 				1E4D69612BA9E772003707B9 /* CabledApp.swift in Sources */,
+				1E145C572C6BDAC20088BBD3 /* SignatureBox.swift in Sources */,
+				1E145C612C6BDAC20088BBD3 /* RiderFilterSheet.swift in Sources */,
+				1E145C672C6BDAC20088BBD3 /* ContestCarrier.swift in Sources */,
+				1E145C622C6BDAC20088BBD3 /* RiderRankings.swift in Sources */,
+				1E145C702C6BDAC20088BBD3 /* NetworkManager.swift in Sources */,
+				1E145C722C6BDAC20088BBD3 /* WebsocketManager.swift in Sources */,
+				1E145C582C6BDAC20088BBD3 /* Tips.swift in Sources */,
+				1E145C5D2C6BDAC20088BBD3 /* TrickDetailView.swift in Sources */,
+				1E145C6A2C6BDAC20088BBD3 /* Rider.swift in Sources */,
+				1E145C692C6BDAC20088BBD3 /* Registration.swift in Sources */,
+				1E145C5C2C6BDAC20088BBD3 /* LiveFeedViewModel.swift in Sources */,
+				1E145C662C6BDAC20088BBD3 /* utils.swift in Sources */,
+				1E145C5F2C6BDAC20088BBD3 /* RiderProfileView.swift in Sources */,
+				1E145C602C6BDAC20088BBD3 /* RiderProfileViewModel.swift in Sources */,
+				1E145C5A2C6BDAC20088BBD3 /* LiveFeedScorecard.swift in Sources */,
+				1E145C552C6BDAC20088BBD3 /* CaptureImageView.swift in Sources */,
+				1E145C562C6BDAC20088BBD3 /* LoadingView.swift in Sources */,
+				1E145C712C6BDAC20088BBD3 /* RequestError.swift in Sources */,
+				1E145C632C6BDAC20088BBD3 /* RiderRankingsViewModel.swift in Sources */,
+				1E145C5E2C6BDAC20088BBD3 /* TrickListView.swift in Sources */,
+				1E145C6C2C6BDAC20088BBD3 /* RiderStat.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +694,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_ENTITLEMENTS = Cabled/Cabled.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -424,6 +703,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.sports";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -438,14 +718,15 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.4;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "koester-ventures.Cabled";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -454,6 +735,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_ENTITLEMENTS = Cabled/Cabled.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -462,6 +744,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.sports";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -476,14 +759,15 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.4;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "koester-ventures.Cabled";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
